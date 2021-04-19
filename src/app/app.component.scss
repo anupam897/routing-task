@@ -1,0 +1,147 @@
+.mainconatiner{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    
+}
+.subcontainer1 {
+    background-color: #7D7D7D;
+    
+    
+}
+
+.subcontainer1 a{
+    width: 100%;
+    height: 10%;
+    display: block;
+    font-weight:500;
+    font-size: 24px;
+    background-color: #F6CCCD;
+    color: #B84444;
+    text-decoration: none;
+    padding: 1px;
+    margin-top: 1px;
+}
+.subcontainer1 a h2{
+    position: relative;
+    left: 20px;
+     
+}
+.subcontainer1 .product{
+    background-color: #BAA4A6;
+    text-transform: uppercase;
+  
+   
+}
+.subcontainer1 .cart{
+    background-color: #BAA4A6;
+    
+}
+
+.subcontainer2 {
+    background-color: white;
+    
+}
+
+
+@media  (min-width:320px) and (max-width:500px){
+
+  
+    .subcontainer1 a {
+        width: 100%;
+        height: 7%;
+        display: block;
+        font-weight: 500;
+        font-size: 13px;
+        background-color: #F6CCCD;
+        color: #B84444;
+        text-decoration: none;
+        padding: 1px;
+        margin-top: 1px;
+    }
+    .subcontainer1 a h2 {
+        position: relative;
+        left: 3px;
+        font-size: 10px;
+        margin-top: 19px;
+    
+    }
+
+}
+
+@media  (min-width:501px) and (max-width:767px){
+
+  
+    .subcontainer1 a {
+        width: 100%;
+        height: 10%;
+        display: block;
+        font-weight: 500;
+        font-size: 13px;
+        background-color: #F6CCCD;
+        color: #B84444;
+        text-decoration: none;
+        padding: 1px;
+        margin-top: 1px;
+    }
+    .subcontainer1 a h2 {
+        position: relative;
+    left: 6px;
+    font-size: 15px;
+    margin-top: 20px;
+    }
+
+}
+
+@media  (min-width:768px) and (max-width:1023px){
+
+    .subcontainer1 a h2 {
+        margin-top: 17px;
+        position: relative;
+        left: 12px;
+        font-size: 24px;
+        width: 50%;
+    
+    }
+    
+    
+    .subcontainer1 a {
+        width: 100%;
+        height:10%;
+        display: block;
+        font-weight: 500;
+        font-size: 13px;
+        background-color: #F6CCCD;
+        color: #B84444;
+        text-decoration: none;
+        padding: 1px;
+        margin-top: 1px;
+    }
+  
+
+}
+@media  (min-width:1024px) {
+
+    .subcontainer1 a {
+        width: 100%;
+        height:10%;
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        background-color: #F6CCCD;
+        color: #B84444;
+        text-decoration: none;
+        padding: 1px;
+        margin-top: 1px;
+    }
+    .subcontainer1 a h2{
+        margin-top: 20px;
+        position: relative;
+        left: 20px;
+        font-size: 30px;
+        width: 50%;
+    }
+  
+
+}

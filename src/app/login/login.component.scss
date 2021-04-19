@@ -1,0 +1,45 @@
+h1{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 100px;
+    color: #B84444;
+    text-transform: uppercase;
+}
+
+@media  (min-width:768px) and (max-width:1023px){
+
+    h1{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        font-size: 70px;
+        color: #B84444;
+        text-transform: uppercase;
+    }
+    
+  
+
+}
+
+@media  (min-width:320px) and (max-width:500px){
+
+    h1{
+        position: absolute;
+    top: 38%;
+    left: 32%;
+    font-size: 30px;
+    color: #B84444;
+    }
+
+}
+@media  (min-width:501px) and (max-width:767px){
+    h1 {
+        position: absolute;
+        top: 35%;
+        left: 33%;
+        font-size: 50px;
+        color: #B84444;
+        text-transform: uppercase;
+    }
+}
